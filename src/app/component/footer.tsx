@@ -15,9 +15,11 @@ export default function FooterComponent() {
                     </div>
                     <div className='col-start-4 text-left'>
                         <h3>Resources</h3>
-                        <div><a href="">Whitepaper</a></div>
-                        <div><a href="">Github</a></div>
-                        <div><a href="">Community</a></div>
+                        <div><a href="https://zelonis/whitepaper.pdf">Whitepaper</a></div>
+                        <div><a href="https://github.com/zel-labs">Github</a></div>
+                        <div><a href="https://t.me/zelonisofficial">Community</a></div>
+                        <div><a href="https://zelscope.space">Explorer</a></div>
+                        <div><a href="https://zellet.org">Wallet</a></div>
                     </div>
                     
                 </div>

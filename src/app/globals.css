@@ -28,6 +28,7 @@ body {
   font-family:'Ridley Grotesk';
   background: #000000;
   background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(28, 145, 226, 1) 100%) ;
+  color:#fff;
 }
 
 .timeline-content {
