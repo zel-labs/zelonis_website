@@ -5,9 +5,9 @@ import React from 'react'
 
 export default function HeaderComponent() {
   return (
-    <header className='max-h-[70px] grid grid-cols-2 border-b-[1px] border-b-[#fff] pb-3 fixed z-10 bg-[rgba(0,0,0,0.6)] w-full left-0'>
+    <header className='max-h-[70px] grid grid-cols-2 border-b-[1px] border-b-[#fff] pb-3 fixed z-10 bg-[rgba(0,0,0,0.8)] w-full left-0'>
       <img src='/logo.png' className='h-[50px] pt-3 pl-3' /> 
-      <nav className=''>
+      <nav className='hidden md:block'>
         <div className='float-right mt-3 grid grid-cols-5 place-items-center text-[14px] pr-10'>
           <a onClick={() => document.getElementById("concept")?.scrollIntoView({ behavior: "smooth" })} className='cursor-pointer hover:text-blue-500' >Concept</a>
           <a onClick={() => document.getElementById("features")?.scrollIntoView({ behavior: "smooth" })} className='cursor-pointer hover:text-blue-500'>Features</a>

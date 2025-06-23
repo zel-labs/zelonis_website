@@ -7,14 +7,17 @@ export default function Home() {
   return (
     <>
     <HeaderComponent />
-    <div className='p-20' id="concept">
+    <div className="fixed top-0 left-0 w-full hidden">
+      <img src={"/hour-glass.png"}  alt="time-oracle" className="absolute top-[-150px] left-[-200px] rotate-[-30deg] h-[800px]"/>
+    </div>
+    <div className='p-20 relative z-10' id="concept">
       <div className='text-[5vh] font-semibold mt-[10vh]'>Proof of Time over Stake</div>
       <div className='pl-[10vw] pr-[10vw] text-justify text-[18px] mt-5'>
         Unlock a new era of blockchain trust: validators earn influence by continuous, reliable participation over time — not just coin ownership. This fosters a fair, secure, and sustainable network built on integrity and long-term commitment.
       </div>
       <button className='mt-[3vh] p-5 pt-3 pb-3 bg-black rounded-lg hover:bg-[#4b5563] hover:transform-[scale(1.05)] font-semibold cursor-pointer'>Get Started</button>
     </div>
-    <div className='grid grid-cols-3 gap-x-3 mt-[10vh] pt-[70px]' id="features">
+    <div className='grid grid-cols-1 md:grid-cols-3 gap-3 p-3 mt-[10vh] pt-[70px] relative z-10' id="features">
       <div className='bg-[#111] p-10 rounded-lg text-center'>
         <svg className="w-12 h-12 m-auto" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
           <circle cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="2" fill="none"></circle>
@@ -44,11 +47,11 @@ export default function Home() {
     </div>
     
     <RoadmapComponent />
-    <div id="tokenomics" className="pt-[70px]">
+    <div id="tokenomics" className="pt-[70px] relative z-10">
       <h3 className="text-[5vh] font-semibold mt-[3vh]">Tokenomics</h3>
       <div className="pl-[10vw] pr-[10vw]  text-[18px] mt-5 mb-[10vh]">Transparent and sustainable tokenomics designed to fuel Zelonis Blockchain’s growth and incentivize long-term engagement.</div>
     </div>
-    <div className="grid grid-cols-3 gap-10 mt-5 pb-[70px]">
+    <div className="grid grid-cols-1 p-3 md:grid-cols-3 gap-10 mt-5 pb-[70px] relative z-10">
       <div className="bg-black rounded-lg p-10">
         <h4 className="text-3xl font-semibold">500,000,000</h4>
         <h5 className="text-2xl mt-3">Pre-mint</h5>

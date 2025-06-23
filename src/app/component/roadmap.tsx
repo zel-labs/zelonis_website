@@ -3,14 +3,14 @@ import React from 'react'
 export default function RoadmapComponent() {
   return (
     <>
-    <div id="roadmap" className='pt-[70px]'>
+    <div id="roadmap" className='pt-[70px] relative z-10 p-3'>
         <h2 className='text-[5vh] font-semibold mt-[10vh]'>Roadmap: Zelonis Blockchain Development</h2>
         <h2 className='pl-[10vw] pr-[10vw]  text-[24px] mt-5'>Forging the Future of Fast, Secure, and Scalable Blockchain</h2>
         <div>
             A clear timeline to implement and evolve Zelonis Blockchain's innovative consensus, emphasizing integrity through time-based trust.
         </div>
     </div>
-    <div className='  p-20 pl-10'>
+    <div className='  p-20 pl-10 relative z-10'>
         
     
         <section  aria-label="Project Roadmap Timeline" className='timeline relative mt-3 ml-12 col-span-2' >
