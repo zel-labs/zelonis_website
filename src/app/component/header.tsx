@@ -58,7 +58,7 @@ export default function HeaderComponent() {
                     </a>
                   </li>
 
-                  <li className="relative group submenu-item">
+                  {/*<li className="relative group submenu-item">
                     <a
                       href="javascript:void(0)"
                       
@@ -66,7 +66,7 @@ export default function HeaderComponent() {
                     >
                       News
                     </a>
-                    {/*<div
+                    <div
                       
                       className="submenu relative top-full left-0 rounded-lg bg-white transition-[top] duration-300 group-hover:opacity-100 dark:bg-black lg:invisible lg:absolute lg:top-[115%] lg:w-[250px] lg:p-4 lg:opacity-0 lg:shadow-lg lg:group-hover:visible lg:group-hover:top-full"
                     >
@@ -81,8 +81,8 @@ export default function HeaderComponent() {
                       <a href="signin.html" className="block rounded-sm py-[10px] text-sm text-black hover:text-primary dark:text-white dark:hover:text-primary lg:px-4"> Signin Page </a>
 
                       <a href="signup.html" className="block rounded-sm py-[10px] text-sm text-black hover:text-primary dark:text-white dark:hover:text-primary lg:px-4"> Signup Page </a>
-                    </div>*/}
-                  </li>
+                    </div>
+                  </li>*/}
                   
                 </ul>
               </nav>

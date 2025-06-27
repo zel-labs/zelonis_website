@@ -15,11 +15,11 @@ import HomeSection from "./section/home";
 
 export default function Home() {
   
-  const [mounted, setMounted] = useState(false)
+ 
 
   useEffect(() => {
-    setMounted(true)
-  document.documentElement.classList.add('dark') // or remove it for light
+    
+  //document.documentElement.classList.add('dark') // or remove it for light
   new WOW.WOW().init()
 }, [])
  
