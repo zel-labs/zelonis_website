@@ -6,7 +6,7 @@ export default function RoadmapSection() {
       <div className="container">
         <div className="wow fadeInUp mx-auto mb-16 max-w-[590px] text-center md:mb-20" data-wow-delay="0s">
           <span className="mb-3 text-lg font-semibold uppercase text-primary sm:text-xl"> ROADMAP </span>
-          <h2 className="mb-3 text-3xl font-semibold leading-tight text-white dark:text-white md:text-[45px]">The Timeline</h2>
+          <h2 className="mb-3 text-3xl font-semibold leading-tight text-dark dark:text-white md:text-[45px]">The Timeline</h2>
           <p className="text-lg font-medium text-body-color-2 dark:text-body-color">From testnet to mainnet, from validator onboarding to dApp ecosystem growth — the Zelonis journey is driven by milestones that prioritize speed, decentralization, and developer-first innovation. Time is our foundation, progress is our path.</p>
         </div>
 
