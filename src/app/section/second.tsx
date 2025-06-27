@@ -7,7 +7,7 @@ export default function SecondSection() {
       <div className="container">
         <div className="wow fadeInUp mx-auto mb-16 max-w-[590px] text-center md:mb-20" data-wow-delay="0s">
           <span className="mb-3 text-lg font-semibold uppercase text-primary sm:text-xl"> Zelonis Features </span>
-          <h2 className="mb-3 text-3xl font-semibold leading-tight text-white dark:text-white md:text-[45px]">Best Features</h2>
+          <h2 className="mb-3 text-3xl font-semibold leading-tight text-dark dark:text-white md:text-[45px]">Best Features</h2>
           <p className="text-lg font-medium text-body-color-2 dark:text-body-color">Zelonis combines speed, security, and time-native innovation to deliver a next-gen blockchain experience. From ultra-low fees and validator-backed storage to community-driven governance and provable fairness — everything is built for builders, by time.</p>
         </div>
 
@@ -24,7 +24,7 @@ export default function SecondSection() {
               </div>
 
               <div>
-                <h3 className="mb-3 text-xl font-semibold text-white dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Sustainable Security</h3>
+                <h3 className="mb-3 text-xl font-semibold text-dark dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Sustainable Security</h3>
 
                 <p className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
                   Energy-efficient, time-anchored protection.
@@ -43,7 +43,7 @@ export default function SecondSection() {
               </div>
 
               <div>
-                <h3 className="mb-3 text-xl font-semibold text-white dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Time-based Trust</h3>
+                <h3 className="mb-3 text-xl font-semibold text-dark dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Time-based Trust</h3>
 
                 <p className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
                   Every block. Every action. Time-verified.
@@ -62,7 +62,7 @@ export default function SecondSection() {
               </div>
 
               <div>
-                <h3 className="mb-3 text-xl font-semibold text-white dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Fairness & Integrity</h3>
+                <h3 className="mb-3 text-xl font-semibold text-dark dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Fairness & Integrity</h3>
 
                 <p className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
                   Time-synced consensus that treats every vote and action equally.
@@ -82,7 +82,7 @@ export default function SecondSection() {
               </div>
 
               <div>
-                <h3 className="mb-3 text-xl font-semibold text-white dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Secure Storage</h3>
+                <h3 className="mb-3 text-xl font-semibold text-dark dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Secure Storage</h3>
 
                 <p className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
                   Zelonis offers tamper-proof, time-stamped data storage backed by validators. 
@@ -102,7 +102,7 @@ export default function SecondSection() {
               </div>
 
               <div>
-                <h3 className="mb-3 text-xl font-semibold text-white dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Low Gas Fee</h3>
+                <h3 className="mb-3 text-xl font-semibold text-dark dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Low Gas Fee</h3>
 
                 <p className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
                   Fast, efficient, and ultra-low-cost transactions on Zelonis.
@@ -122,7 +122,7 @@ export default function SecondSection() {
               </div>
 
               <div>
-                <h3 className="mb-3 text-xl font-semibold text-white dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Governance Enforced</h3>
+                <h3 className="mb-3 text-xl font-semibold text-dark dark:text-white sm:text-3xl lg:text-xl xl:text-3xl">Governance Enforced</h3>
 
                 <p className="text-base font-medium text-body-color-2 dark:text-body-color sm:text-lg lg:text-base xl:text-lg">
                   All protocol changes decided by the community.
