@@ -7,7 +7,6 @@ export default function SecondSection() {
       <div className="container">
         <div className="wow fadeInUp mx-auto mb-16 max-w-[590px] text-center md:mb-20" data-wow-delay="0s">
           <span className="mb-3 text-lg font-semibold uppercase text-primary sm:text-xl"> Zelonis Features </span>
-          <h2 className="mb-3 text-3xl font-semibold leading-tight text-dark dark:text-white md:text-[45px]">Best Features</h2>
           <p className="text-lg font-medium text-body-color-2 dark:text-body-color">Zelonis combines speed, security, and time-native innovation to deliver a next-gen blockchain experience. From ultra-low fees and validator-backed storage to community-driven governance and provable fairness — everything is built for builders, by time.</p>
         </div>
 

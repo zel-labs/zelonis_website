@@ -19,9 +19,9 @@ export default function Home() {
 
   useEffect(() => {
     const darkMode = window.matchMedia('(prefers-color-scheme: dark)')
-    if (darkMode.matches) {
+    
       document.documentElement.classList.add('dark')
-    }
+    
    // or remove it for light
   new WOW.WOW().init()
 }, [])

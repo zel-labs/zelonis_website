@@ -33,8 +33,7 @@ export default function HeaderComponent() {
               >
                 <ul className="blcok lg:flex">
                   <li className="text-body-color-2 dark:text-body-color">
-                    <a
-                      href="#home"
+                    <a href="#home"
                       className="flex py-2 text-lg font-semibold scroll-menu text-primary hover:text-primary dark:text-white dark:hover:text-white lg:ml-7 lg:inline-flex lg:py-5 xl:ml-10 2xl:ml-12"
                     >
                       Home
@@ -109,7 +108,7 @@ export default function HeaderComponent() {
               </div>
               <div className="hidden sm:flex">
                 <a
-                  href="signin.html"
+                  href="https://zellet.org"
                   className="flex items-center justify-center rounded-full border border-body-color-2 py-[9px] px-8 text-base font-semibold text-body-color-2 transition-all hover:border-primary hover:bg-primary hover:text-white dark:border-white dark:text-white dark:hover:bg-white dark:hover:text-primary lg:px-4 xl:px-8"
                 >
                   Get Started

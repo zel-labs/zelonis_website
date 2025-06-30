@@ -31,7 +31,7 @@ export default function TopSection() {
                 
               </div>
 
-              <a href="javascript:void(0)" className="px-8 py-3 text-base font-semibold text-white rounded-full bg-primary hover:bg-primary/90 dark:hover:bg-primary/90"> Buy Coin from IEO </a>
+              <a href="https://dex-trade.com/ieo/ZEL" className="px-8 py-3 text-base font-semibold text-white rounded-full bg-primary hover:bg-primary/90 dark:hover:bg-primary/90"> Buy Now  </a>
             </div>
           </div>
         </div>
