@@ -66,11 +66,10 @@ export default function FooterComponent() {
             <div className="wow fadeInUp mb-14 xl:mb-20" data-wow-delay="0s">
               <h2 className="mb-5 text-2xl font-bold text-black dark:text-white">Quick Links</h2>
               <div className="space-y-3">
-                <a href="javascript:void(0)" className="block text-base font-medium text-body-color-2 hover:text-primary dark:text-body-color dark:hover:text-primary"> Whitepaper </a>
-                <a href="javascript:void(0)" className="block text-base font-medium text-body-color-2 hover:text-primary dark:text-body-color dark:hover:text-primary"> Github </a>
-                <a href="javascript:void(0)" className="block text-base font-medium text-body-color-2 hover:text-primary dark:text-body-color dark:hover:text-primary"> Whitepaper </a>
-                <a href="javascript:void(0)" className="block text-base font-medium text-body-color-2 hover:text-primary dark:text-body-color dark:hover:text-primary"> Social Network </a>
-                <a href="javascript:void(0)" className="block text-base font-medium text-body-color-2 hover:text-primary dark:text-body-color dark:hover:text-primary"> Explorer </a>
+                <a href="https://zelonis.org/Zelonis-Whitepaper.pdf" className="block text-base font-medium text-body-color-2 hover:text-primary dark:text-body-color dark:hover:text-primary"> Whitepaper </a>
+                <a href="https://github.com/zel-labs" className="block text-base font-medium text-body-color-2 hover:text-primary dark:text-body-color dark:hover:text-primary"> Github </a>
+                <a href="https://zelscope.space/" className="block text-base font-medium text-body-color-2 hover:text-primary dark:text-body-color dark:hover:text-primary"> Explorer </a>
+                <a href="https://zellet.org/" className="block text-base font-medium text-body-color-2 hover:text-primary dark:text-body-color dark:hover:text-primary"> Wallet </a>
               </div>
             </div>
           </div>
